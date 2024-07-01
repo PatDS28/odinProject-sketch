@@ -1,8 +1,16 @@
 div{
   border: 1px solid black;
-  padding: 25px;
+  padding: 52px;
 }
 .main{
   display: flex;
   flex-wrap: wrap;
+}
+
+/* .main:hover{
+  background-color: red;
+} */
+
+.main div:hover{
+  background-color: red;
 }

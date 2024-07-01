@@ -10,15 +10,15 @@
 const div = document.createElement("div");
 const mainDiv = document.querySelector(".main");
 
-for(var i = 1;i<16;i++){
+for(var i = 1;i<=16;i++){
   console.log(i);
   const div = document.createElement("div");
-  // div.classList.add(`div ${i}-${j}`);
+  div.classList.add(`div-${i}`);
   mainDiv.appendChild(div);
-  for(var j = 1; j<16;j++){
+  for(var j = 1; j<=15;j++){
     console.log(j);
-    // div.classList.add(`div ${i}-${j}`);
     const div = document.createElement("div");
+    div.classList.add(`div-${i}-${j}`);
     mainDiv.appendChild(div);
     
   }
