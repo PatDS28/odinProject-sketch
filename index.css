@@ -1,16 +1,26 @@
-div{
+.main div{
   border: 1px solid black;
-  padding: 52px;
+  /* padding: 52px; */
+  width: calc(100% / 16);
+  height: calc(100% / 16);
+  box-sizing: border-box;
 }
+
 .main{
+  height: 960px;
+  width: 960px;
   display: flex;
   flex-wrap: wrap;
+  
+  /* background-color: red; */
 }
 
-/* .main:hover{
+
+/* .main div:hover{
   background-color: red;
 } */
-
-.main div:hover{
-  background-color: red;
-}
+ .customize{
+  padding:20px 50px;
+  margin:20px;
+  
+ }
